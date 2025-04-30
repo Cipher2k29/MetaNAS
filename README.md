@@ -10,7 +10,7 @@ To plot the architecture of found cells, you have to install *pygraphviz* packag
 
 
 ## Framework
-![MetaNAS Framework](https://github.com/Cipher2k29/MetaNAS/asset/1_framework.jpg
+![MetaNAS Framework](https://github.com/Cipher2k29/MetaNAS/asset/1_framework.jpg)
 
 ## Dependency Install
 ```
