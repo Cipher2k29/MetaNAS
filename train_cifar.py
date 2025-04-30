@@ -147,7 +147,7 @@ def train_cifar10(train_queue, model, train_criterion, optimizer, args,epoch,glo
 
         ##### 0523 add, use mlr-snet ####################################################################################
         # it seems that use meta-lr in last 15 epochs is better
-        if epoch>=1183:  #epoch % 50 == 0 and epoch != 0:  #>48 (50th epoch)
+        if epoch>=1183:
             loss_net = loss.unsqueeze(0)
 
             loss_tmp = loss.detach().cpu()    
@@ -365,7 +365,7 @@ if __name__=='__main__':
     args.cutout_size = 16
     args.use_aux_head = True
 
-    args.autoaugment = False # True: 83.049995 False: 82.439995
+    args.autoaugment = False
     
 #=====================================setting=======================================
 
