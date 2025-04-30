@@ -1,13 +1,6 @@
 ## Introduction
 This is the source code of the paper entitled [*Meta knowledge assisted Evolutionary Neural Architecture Search*]
 
--------------------------------------------- **Current Version Notes**------------------------------------------
-
-The current version is just a baseline approach for reference, the detailed explanation and useage will be given when this paper is accepted.
-Of course, you can study this source code yourself to help your work.
-
-To plot the architecture of found cells, you have to install *pygraphviz* package and use *Plot_network* function in **utils.py**. 
-
 
 ## Framework
 ![MetaNAS Framework](https://github.com/user-attachments/assets/af72ab78-05e3-419a-8ca8-ef95c7825499)
