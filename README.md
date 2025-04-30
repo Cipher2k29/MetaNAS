@@ -9,6 +9,9 @@ Of course, you can study this source code yourself to help your work.
 To plot the architecture of found cells, you have to install *pygraphviz* package and use *Plot_network* function in **utils.py**. 
 
 
+## Framework
+![MetaNAS Framework:](https://github.com/Cipher2k29/MetaNAS/asset/1_framework.pdf)
+
 ## Dependency Install
 ```
 pytorch>=1.4.0
@@ -46,7 +49,3 @@ If you find this work helpful in your research, please use the following BibTex 
   doi={10.1109/TCSVT.2025.3565562}
 }
 ```
-
-## Acknowledgement
-Thanks for the help of [NAO](https://github.com/renqianluo/NAO_pytorch/tree/master/NAO_V2), [NSGA-Net](https://github.com/ianwhale/nsga-net) and [ACE-NAS](https://github.com/anonymone/ACE-NAS).
-
