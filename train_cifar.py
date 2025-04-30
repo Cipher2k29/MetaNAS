@@ -246,7 +246,6 @@ def run_main(args):
         [[1, 1, 3, 1, 1, 1, 10, 1, 1, 1, 0, 3, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 3, 1, 1, 1, 1, 0, 0, 0, 11, 1, 1, 0, 0, 1, 0, 0, 0, 2, 1, 1, 0, 0, 0, 1, 1, 0, 1, 3, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 9, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 3, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 3, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0], [1, 1, 8, 1, 1, 0, 4, 1, 1, 1, 0, 5, 1, 1, 1, 1, 0, 7, 1, 1, 1, 1, 0, 0, 11, 1, 1, 1, 0, 0, 0, 0, 9, 1, 1, 1, 1, 1, 0, 0, 0, 4, 1, 1, 1, 1, 0, 1, 0, 0, 0, 6]] 
         )
     
-    # train_cifar.py中，train_cifar10和evolution_cifar10都是可以用的，暂时不改
     if args.dataset == 'cifar10':
         args.classes = 10
         train_queue, valid_queue = build_train_cifar10(args=args, cutout_size=args.cutout_size, autoaugment=args.autoaugment)
